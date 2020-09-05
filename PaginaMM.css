@@ -1,8 +1,10 @@
 .fila1{
     height: 500px;
+    position: relative;
   }
   .fila2{
     height: 500px;
+    position: relative;
   }
   .columnPJ1 {
     float: left;
