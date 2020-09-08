@@ -1,10 +1,43 @@
-.fila1{
-    height: 500px;
-    position: relative;
+
+
+
+
+    a { color: #ffffff; }
+    /* COLOR LINKS */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(131, 0, 0, 0.401);
+}
+
+li {
+  float: right;
+  border-right:3px solid rgba(0, 0, 0, 0.313);
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium';
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* BARRA DE NAVEGACION */
+
+  .fila1{
+    height: 600px;
   }
   .fila2{
-    height: 500px;
-    position: relative;
+    height: 600px;
   }
   .columnPJ1 {
     float: left;
@@ -122,3 +155,8 @@
   }
 
      /* COLUMNAS PERSONAJES 2 */
+
+     * {
+      box-sizing: border-box;
+    }
+
