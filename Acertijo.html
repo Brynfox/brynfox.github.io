@@ -4,12 +4,28 @@
 <head>
   <link rel="shortcut icon" type="image/x-icon" href="https://anthoncode.com/wp-content/uploads/2020/01/logo-batman-nolan-1.png" height="100%"  />
 
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="AcertijoBatman.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap" rel="stylesheet">
+
+
   <link rel="stylesheet" href="PaginaMM.CSS"/>
-  <title>The Batman Webpage</title>
+  <title>Riddler</title>
+
+
+<style>
+.txt {
+  color: white
+}
+
+
+</style>
 </head>
 
 <body style="background-image:url(https://mpdetailing.com/wp-content/uploads/2018/11/Black-website-background-black.jpg);" bgproperties="fixed">
-
 
   <ul>
     <li><a href="Acertijo.html">ACERTIJO</a></li>
@@ -20,7 +36,23 @@
 
 
 
+  <div class="txt">
+    <span>
+        En una mesa hay tres sombreros negros y dos blancos. Tres señoras en fila india se colocan, cada una, un sombrero al azar sin mirar el color del mismo.
 
+        Luego, con la mirada hacia el frente, se le pregunta a la mujer ubicada en el tercer lugar de la fila si puede, mediante la observación de los sombreros que tienen colocados las otras personas, saber de qué color es el suyo. Pero la respuesta es negativa.
+
+        Se le pregunta a la segunda señora de la fila, que ve solo el sombrero de la primera, y también responde negativamente. Por último, la primera señora de la fila, que no ve ningún sombrero, consigue responder acertadamente de qué color es su sombrero.
+    </span>
+    <div class="rta">
+        <p>De que color es el sombrero?</p>
+        <input type="text" name="Respuesta" id="rta" placeholder="Blaco o negro" required>
+        <p id="intento"></p>
+    </div>
+    <div class="rta">
+        <button id="button" onclick="valor()" enabled>Verificar</button>
+    </div> 
+</div>   
 
 
 
