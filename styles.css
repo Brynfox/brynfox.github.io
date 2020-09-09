@@ -1,0 +1,147 @@
+
+
+a { color: #ffffff; }
+    /* COLOR LINKS */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(131, 0, 0, 0.401);
+}
+
+li {
+  float: right;
+  border-right:3px solid rgba(0, 0, 0, 0.313);
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium';
+}
+
+li a:hover {
+  background-color: #111;
+}
+/* BARRA DE NAVEGACION */
+
+  .fila1{
+    height: 600px;
+  }
+  .fila2{
+    height: 600px;
+  }
+  .columnPJ1 {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  @media screen and (max-width: 650px) {
+    .columnPJ1 {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .cardPJ1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .containerPJ1 {
+    padding: 0 16px;
+    color: white;
+  }
+
+  .containerPJ1::after,
+  .rowPJ1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .titlePJ1 {
+    color: rgba(255, 255, 255, 0.856);
+  }
+
+  .buttonPJ1 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgba(245, 245, 245, 0.829);
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .buttonPJ1:hover {
+    background-color: rgba(175, 0, 0, 0.877);
+  }
+
+  /* COLUMNAS PERSONAJES 1 */
+
+
+
+  .columnPJ2 {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  @media screen and (max-width: 650px) {
+    .columnPJ2 {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .cardPJ2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .containerPJ2 {
+    padding: 0 16px;
+    color: white;
+  }
+
+  .containerPJ2::after,
+  .rowPJ2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .titlePJ2 {
+    color: rgba(255, 255, 255, 0.856);
+  }
+
+  .buttonPJ2 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgba(245, 245, 245, 0.829);
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .buttonPJ2:hover {
+    background-color: rgba(175, 0, 0, 0.877);
+  }
+     /* COLUMNAS PERSONAJES 2 */
+
+
+     * {
+      box-sizing: border-box;
+    }

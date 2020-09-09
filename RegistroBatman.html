@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="https://anthoncode.com/wp-content/uploads/2020/01/logo-batman-nolan-1.png" height="100%"  />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css"/>
+
+    <style>    
+    
+
+        body,
+        html {
+          height: 100%;
+        }
+    
+        * {
+          box-sizing: border-box;
+        }
+    
+        .bg-img {
+          background-image: url("https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/08/931/524/batman1.jpg?ve=1&tl=1");
+          
+          min-height: 800px;
+    
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 75%;
+          position: bottom 800px;
+        }
+    
+        .containerform {
+          position: absolute;
+          right: 10%;
+          margin: 20px;
+          max-width: 300px;
+          height: 700px;
+          padding: 16px;
+          background-color: rgba(0, 0, 0, 0.61);
+          color: white;
+        }
+    
+        input[type=text],
+        input[type=password] {
+          width: 100%;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          border: none;
+          background: #f1f1f1;
+        }
+    
+        input[type=text]:focus,
+        input[type=password]:focus {
+          background-color: rgb(0, 0, 0);
+          outline: none;
+        }
+    
+        .btn {
+          background-color: #a50000;
+          color: white;
+          padding: 16px 20px;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+        }
+    
+        .btn:hover {
+          opacity: 1;
+        }
+        /* REGISTRO ESTILOS */
+
+        </style>
+
+<title>Registro Batman Webpage</title>
+</head>
+
+<body style="background-image:url(https://mpdetailing.com/wp-content/uploads/2018/11/Black-website-background-black.jpg);" bgproperties="fixed">
+
+  <ul>
+    <li><a style="color:white" href="Acertijo.html">ACERTIJO</a></li>
+    <li><a style="color:white" href="RegistroBatman.html">REGISTRO</a></li>
+    <li><a style="color:white" href="PersonajesBatman.html">PERSONAJES</a></li>
+    <li><a style="color:white" class="active" href="index.html">HOME</a></li>
+  </ul>
+  <!--BARRA NAVEGACIÓN-->
+
+    <div align="bottom" style="font-family:Calibri, sans-serif;font-size:125%" class="bg-img">
+        <form action="/action_page.php" class="containerform">
+          <h1>Regístrate para recibir novedades</h1>
+
+          <div class="form-group">
+            <label for="uname">Email:</label>
+            <input type="email" class="form-control" id="uname" placeholder="Email" name="uname" required>
+            <div class="valid-feedback">Válido</div>
+            <div class="invalid-feedback">Por favor llene este campo.</div>
+          </div>
+
+          <div class="form-group">
+            <label for="pwd">Contraseña:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Password" name="pswd" required>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por favor llene este campo.</div>
+          </div>
+          <div class="form-group form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember" required> Estoy de acuerdo con los términos y condiciones
+              <div class="valid-feedback">Válido.</div>
+              <div class="invalid-feedback">Debes aceptar los términos.</div>
+            </label>
+          </div>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </div>
+      <!--FORMULARIO DE REGISTRO-->
+      
+
+      <div align="center"><img src="https://cnet1.cbsistatic.com/img/speh5MsuGHtuDR1uAhVT-ImoazE=/1200x675/2020/08/20/71b9a0c3-a467-47b6-84a0-a1f8996c89bd/the-batman-logo.jpg" alt="Batman Logo" width="10%">
+</body>
+
+</html>
