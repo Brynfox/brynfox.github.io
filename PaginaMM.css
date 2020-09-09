@@ -2,7 +2,7 @@
 
 
 
-    a { color: #ffffff; }
+a { color: #ffffff; }
     /* COLOR LINKS */
 
 ul {
@@ -30,7 +30,6 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
 /* BARRA DE NAVEGACION */
 
   .fila1{
@@ -46,7 +45,6 @@ li a:hover {
     padding: 0 8px;
   }
 
-  /* Display the columns below each other instead of side by side on small screens */
   @media screen and (max-width: 650px) {
     .columnPJ1 {
       width: 100%;
@@ -54,18 +52,15 @@ li a:hover {
     }
   }
 
-  /* Add some shadows to create a card effect */
   .cardPJ1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
-  /* Some left and right padding inside the container */
   .containerPJ1 {
     padding: 0 16px;
     color: white;
   }
 
-  /* Clear floats */
   .containerPJ1::after,
   .rowPJ1::after {
     content: "";
@@ -97,9 +92,6 @@ li a:hover {
 
 
 
-
-
-  /* Three columns side by side */
   .columnPJ2 {
     float: left;
     width: 33.3%;
@@ -107,7 +99,6 @@ li a:hover {
     padding: 0 8px;
   }
 
-  /* Display the columns below each other instead of side by side on small screens */
   @media screen and (max-width: 650px) {
     .columnPJ2 {
       width: 100%;
@@ -115,18 +106,15 @@ li a:hover {
     }
   }
 
-  /* Add some shadows to create a card effect */
   .cardPJ2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
-  /* Some left and right padding inside the container */
   .containerPJ2 {
     padding: 0 16px;
     color: white;
   }
 
-  /* Clear floats */
   .containerPJ2::after,
   .rowPJ2::after {
     content: "";
@@ -153,10 +141,9 @@ li a:hover {
   .buttonPJ2:hover {
     background-color: rgba(175, 0, 0, 0.877);
   }
-
      /* COLUMNAS PERSONAJES 2 */
+
 
      * {
       box-sizing: border-box;
     }
-
